@@ -19,7 +19,7 @@ def SSTF(referenceArray,head):
     print("Total Seek Time :",totalSeekTime)
     print("Average Seek Time : ", totalSeekTime/len(referenceArray))
 
-referenceArray=list(map(int,input("Enter space seperetd Reference String : ").split()))
-head=int(input("enter head : "))
+referenceArray=list(map(int,input("Enter Space Seperetd Reference String : ").split()))
+head=int(input("enter head Value: "))
 print()
 SSTF(referenceArray,head)
